@@ -16,6 +16,7 @@ export default {
     return {
       sampleData: [
         {
+          "id": 0,
           "strike_price": 100, 
           "type": "Call", 
           "bid": 10.05, 
@@ -24,6 +25,7 @@ export default {
           "expiration_date": "2025-12-17T00:00:00Z"
         },
         {
+          "id": 1,
           "strike_price": 102.50, 
           "type": "Call", 
           "bid": 12.10, 
@@ -32,6 +34,7 @@ export default {
           "expiration_date": "2025-12-17T00:00:00Z"
         },
         {
+          "id": 2,
           "strike_price": 103, 
           "type": "Put", 
           "bid": 14, 
@@ -40,6 +43,7 @@ export default {
           "expiration_date": "2025-12-17T00:00:00Z"
         },
         {
+          "id": 3,
           "strike_price": 105, 
           "type": "Put", 
           "bid": 16, 
